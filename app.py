@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder  # Import LabelEncoder
 
 # Load the data
 def load_data():
-    file_path = r"C:\Users\Darshan\Downloads\turnover.csv"
+    file_path = ".\data\turnover.csv"
     try:
         # Try reading the file with UTF-8 encoding
         df = pd.read_csv(file_path, encoding='utf-8')
